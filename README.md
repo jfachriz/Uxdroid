@@ -18,7 +18,7 @@ Because it leverages **PRoot** and **Termux**, uxdroid runs completely entirely 
 
 Provided with two main methods for installing uxdroid. For more advanced configurations and command-line arguments, refer to the [Advanced Usage Documentation](https://github.com/jfachriz/fs-manager-uxdroid/blob/main/README.md).
 ### Method 1: Automated One-Line Installer (Recommended)
-To install the stable release of the `uxdroid` filesystem, use the automated script. If you have a completely fresh installation of Termux, ensure your packages are updated first.
+To install the stable release of the `uxdroid` filesystem, use the automated script.
 
 
 **For a fresh Termux environment:**
