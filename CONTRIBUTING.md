@@ -1,6 +1,9 @@
-<div <h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> UXDROID CONTRIBUTION GUIDELINES </h1>
-<p><strong>Codename:</strong> <code>uxdroid</code></p>
-/div>
+<div align="center">
+  
+  <h1 style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 2rem; letter-spacing: 2px; margin-bottom: 0;">UXDROID CONTRIBUTION GUIDELINES</h1>
+  <p><strong>©️:</strong> <code>jfachriz</code></p>
+</div>
+
 
 ---
 
