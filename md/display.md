@@ -80,4 +80,4 @@ Open your preferred Microsoft Remote Desktop client app on any device and target
 
 ---
 
-<code><h3>➡️ <strong>Next Page:</strong> <a href="./tips-and-tricks.md">Tips & Tricks</a></h3></code>
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/tips-and-tricks.md">Tips & Tricks</a></h3></code>
