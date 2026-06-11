@@ -2,7 +2,7 @@
 
 ---
 
-Termux-X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike standard VNC solutions, Termux:X11 runs via a native Android application canvas, providing massive performance increases, hardware acceleration support, and a near-native desktop experience.
+Termux-X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike standard VNC solutions, Termux-X11 runs via a native Android application canvas, providing massive performance increases, hardware acceleration support, and a near-native desktop experience.
 
 ---
 
