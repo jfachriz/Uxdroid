@@ -63,13 +63,13 @@ Switch over to your open Termux-X11 app window; your graphical desktop interface
 ## 🛠️ Optimizations & Troubleshooting
 
 
-*   **Virtual GPU Acceleration (VirGL):**  
+1.   **Virtual GPU Acceleration (VirGL):**  
     If you want to play low-end Linux games or run 3D applications, install the `virglrenderer-android` package on the **Termux host**, run `virgl_test_server_android &` prior to login, and prep your environment launch inside Uxdroid via:
 ```bash
     GALLIUM_DRIVER=virpipe mesa_glthread=true dbus-launch --exit-with-session xfce4-session
     ```
 
-*   **Resolution and Scaling Adjustments:**  
+2.   **Resolution and Scaling Adjustments:**  
     If your desktop font or menus look microscopic, swipe from the left edge inside the Termux-X11 app, open the **Preferences** menu, and customize the **Display Resolution** or adjust the UI display scaling factors directly.
 
 
