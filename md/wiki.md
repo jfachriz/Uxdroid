@@ -42,4 +42,4 @@ Copyright © 2026 jfachriz.
 ---
 
 
-<code><strong>Next Page:</strong> <a href="../md/disclaimer.md">Core Disclaimer</a></code>
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/disclaimer.md">Core Disclaimer</a></h3></code>
