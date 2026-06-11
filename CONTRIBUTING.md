@@ -1,7 +1,7 @@
 <div align="center">
   
   <h1 style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 2rem; letter-spacing: 2px; margin-bottom: 0;">UXDROID CONTRIBUTION GUIDELINES</h1>
-  <p><strong>©️:</strong> <code>jfachriz</code></p>
+  <p><strong>copyright</strong> <code>jfachriz</code></p>
 </div>
 
 
