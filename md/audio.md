@@ -35,6 +35,7 @@ Now, bridge your uxdroid distribution environment to point to the background ser
    Inside your active uxdroid terminal context, export the audio loopback address:
 ```bash
    export PULSE_SERVER=127.0.
+'''
 
 ___
 <code><h3>➡️ <strong>Next Page:</strong> <a href="../md/tips-and-tricks.md">Tips & Tricks</a></h3></code>
