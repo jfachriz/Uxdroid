@@ -65,7 +65,6 @@ Switch over to your open Termux-X11 app window; your graphical desktop interface
 
 *   **Virtual GPU Acceleration (VirGL):**  
     If you want to play low-end Linux games or run 3D applications, install the `virglrenderer-android` package on the **Termux host**, run `virgl_test_server_android &` prior to login, and prep your environment launch inside Uxdroid via:
-
 ```bash
     GALLIUM_DRIVER=virpipe mesa_glthread=true dbus-launch --exit-with-session xfce4-session
     ```
