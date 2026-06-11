@@ -1,4 +1,4 @@
-<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> ⚠️ DISCLAIMER </h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> ⚠️ DISCLAIMER ⚠️ </h1>
 
 ---
 
