@@ -21,7 +21,7 @@ This single-line script automates the full process by installing required packag
 Run the following command inside Termux:
 
 ```bash
-. <(curl -Ls https://bit.ly/uxdroid-installer))
+. <(curl -Ls https://bit.ly/uxdroid-installer)
 ```
 
 ---
