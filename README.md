@@ -10,7 +10,7 @@
 
 **uxdroid** is a powerful environment manager designed to bring full-fledged Ubuntu distributions directly to your Android device. It allows you to install pre-configured Linux environments complete with Desktop Environments (GUI), robust development tools, and standard Linux software. 
 Because it leverages **PRoot** and **Termux**, uxdroid runs completely entirely in user-space. This means **no root access is required**, keeping your device secure and its warranty intact. 
-> **Important:** Please review our [Disclaimer](md/disclaimer.md) and the official [Wiki](https://udroid-rc.gitbook.io/) before proceeding with the installation.
+> **Important:** Please review our [Disclaimer](md/disclaimer.md) and the official [Wiki](md/wiki.md) before proceeding with the installation.
 
 
 ---
