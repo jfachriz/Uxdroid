@@ -49,7 +49,7 @@ uxdroid list
 ```
 This displays a structured table containing the available OS suites and desktop variations (e.g., `jammy:xfce4`). To install a specific system from that list, run:
 ```bash
-udroid install <suite_name>
+uxdroid install <suite_name>
 #e.g uxdroid install jammy:xfce4
 ```
 
