@@ -8,8 +8,8 @@ Before proceeding with the installation, make sure you have the necessary applic
 
 1. **Terminal Emulator:** Download and install **Termux** [F-Droid](https://f-droid.org/en/packages/com.termux/). Do not use the version from the Google Play Store, as it is deprecated and no longer updated.
 2. **Display Client:** To access the Linux graphical user interface (GUI), download one of the following display apps from the Play Store or F-Droid:
-   * **VNC Viewer** (Standard remote desktop client)
-   * **XServer XSDL** (X11 server for Android)
+   * **VNC Viewer**
+   * **XServer XSDL**
    * **Termux:X11** (Highly recommended for hardware acceleration and low-latency performance)
 
 ---
