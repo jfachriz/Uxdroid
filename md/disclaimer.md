@@ -33,4 +33,4 @@ Before setting up your environment, please keep the following requirements and s
 
 Managing and controlling your Desktop Environment can be accomplished through various display protocols (such as VNC or XWayland clients). For step-by-step instructions on configuring your graphics server, please proceed to the setup guide.
 
-&nbsp;<code><strong>Next Page:</strong> <a href="../md/installation.md">Installation & Usage</a></code>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code><strong>Next Page:</strong> <a href="../md/installation.md">Installation & Usage</a></code>
