@@ -91,6 +91,4 @@ uxdroid remove jammy:xfce4
 uxdroid --clear-cache
 ```
 
----
-
-<code><h3>➡️ <strong>Next Page:</strong> <a href="./display.md">Display Configuration</a></h3></code>
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/display.md">Display Configuration</a></h3></code>
