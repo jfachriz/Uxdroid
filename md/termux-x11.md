@@ -11,7 +11,7 @@ Termux-X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike s
 Before launching your environment, you must set up the display server framework directly within the Termux host environment.
 
 1. **Install the Companion Application:**  
-   Download and install the latest **Termux-X11 APK** directly from the official [Termux-X11 GitHub Releases/Actions page](https://github.com/termux/termux-x11). 
+   Download and install the latest **Termux-X11 APK** directly from the official [Termux-X11 GitHub](https://github.com/termux/termux-x11). 
 
 2. **Install Packages on Termux Host:**  
    Open a raw Termux window (do *not* log into Uxdroid yet) and run the following commands to initialize the X11 package repositories:
