@@ -63,7 +63,7 @@ uxdroid install jammy:xfce4
 
 Once the installation is complete, you can launch your Desktop Environment by following these steps:
 
-1. Open the **Termux-X11**.
+1. Open **Termux**. ( The script will launch Termux-X11 Automatically )
 2. Inside Termux, execute the startup script:
 
 ```bash
