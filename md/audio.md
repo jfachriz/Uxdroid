@@ -58,4 +58,4 @@ echo "export PULSE_SERVER=127.0.0.1" >> ~/.bashrc
 
 ---
 
-<code><a href="../md/termux-x11.md">Previous Page: Termux-X11</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/credits.md">Next Page: Credits</a></code>
+<code><a href="../md/termux-x11.md">Previous Page: Termux-X11</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></code>
