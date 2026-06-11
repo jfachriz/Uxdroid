@@ -1,0 +1,25 @@
+[submodule "uxdroid-extra-tool-proot"]
+	path = uxdroid-extra-tool-proot
+	url = https://github.com/jfachriz/uxdroid-extra-tool-proot
+	branch = main
+[submodule "uxdroid-fsmanager-scripts"]
+	path = uxdroid-fsmanager-scripts
+	url = https://github.com/jfachriz/fs-manager-uxdroid
+	branch = main
+[submodule "uxdroid-builder-core"]
+	path = uxdroid-builder-core
+	url = https://github.com/jfachriz/ux-cook
+	branch = main
+[submodule "uxdroid-tarball-builder"]
+	path = uxdroid-tarball-builder
+	url = https://github.com/jfachriz/uxdroid-download
+	branch = main
+[submodule "ux-cook"]
+	path = ux-cook
+	url = https://github.com/jfachriz/ux-cook.git
+[submodule "fs-manager-uxdroid"]
+	path = fs-manager-uxdroid
+	url = https://github.com/jfachriz/fs-manager-uxdroid
+[submodule "uxdroid-download"]
+	path = uxdroid-download
+	url = https://github.com/jfachriz/uxdroid-download
