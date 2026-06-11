@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="assets/uxdroid_logo.png" width="250" alt="UXDROID Logo">
+  <img src="assets/uxdroid_logo.png" width="500" alt="UXDROID Logo">
+  <h1 style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 2rem; letter-spacing: 2px; margin-bottom: 0;">UXDROID LINUX ENVIRONMENT</h1>
+  <p><strong>Codename:</strong> <code>uxdroid</code></p>
 </div>
 
 
