@@ -43,4 +43,4 @@ Copyright © 2026 jfachriz.
 
 ---
 
-**Next Page:** [Core Disclaimer](../md/disclaimer.md)
+### **Next Page:** [Core Disclaimer](../md/disclaimer.md)
