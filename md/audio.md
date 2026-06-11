@@ -34,7 +34,28 @@ Now, bridge your uxdroid distribution environment to point to the background ser
 2. **Expose the audio environment variable:**  
    Inside your active uxdroid terminal context, export the audio loopback address:
 ```bash
-   export PULSE_SERVER=127.0.
+   export PULSE_SERVER=127.0.0.1
+   ```
+
+3. **Verify Connection Quality:**  
+   Install the native sound utilities package to verify if the client correctly handshakes with the Android driver layer:
+```bash
+   sudo apt update && sudo apt install pulseaudio-utils -y
+   pactl info
+   ```
 
 ---
-<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/tips-and-tricks.md">Tips & Tricks</a></h3></code>
+
+## ⚡ Automation Shortcut
+
+To prevent having to manually export the sound server token every time you log into your container, you can append it directly to your shell's layout profile.
+
+Run this command **inside your uxdroid terminal** to automate the process for future logins:
+
+```bash
+echo "export PULSE_SERVER=127.0.0.1" >> ~/.bashrc
+```
+
+---
+
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/credits.md">Credits</a></h3></code>
