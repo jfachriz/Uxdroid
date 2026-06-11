@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/jfachriz/assets/uxdroid_logo.png" width="500" alt="UXDROID Logo">
+  <img src="../assets/uxdroid_logo.png" width="500" alt="UXDROID Logo">
 </div>
 
 
