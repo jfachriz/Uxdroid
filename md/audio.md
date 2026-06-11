@@ -57,7 +57,6 @@ echo "export PULSE_SERVER=127.0.0.1" >> ~/.bashrc
 ```
 
 ---
- 
 <code><h3 align="center"><a href="../"><strong>HOME PAGE</strong></a></h3></code>
 
 ---
