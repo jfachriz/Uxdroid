@@ -41,6 +41,5 @@ Copyright © 2026 jfachriz.
 
 ---
 
-```bash
-Next Page: Core Disclaimer (../md/disclaimer.md)
-```
+
+<code><strong>Next Page:</strong> <a href="../md/disclaimer.md">Core Disclaimer</a></code>
