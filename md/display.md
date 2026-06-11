@@ -80,4 +80,4 @@ Open your preferred Microsoft Remote Desktop client app on any device and target
 
 ---
 
-<code><a href="../md/installation.md">Previous Page: Installation</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/termux-x11.md">Next Page: Termux-X11</a></code>
+<code><a href="../md/installation.md">Previous Page: Installation</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/termux-x11.md">Next Page: Termux-X11</a></code>
