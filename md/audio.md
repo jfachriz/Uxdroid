@@ -58,4 +58,4 @@ echo "export PULSE_SERVER=127.0.0.1" >> ~/.bashrc
 
 ---
  
-<h3 align="center" >[HOME PAGE](https://github.com/jfachriz/uxdroid) </h3>
+<code><h3 align="center"><a href="../">HOME PAGE</a>
