@@ -1,8 +1,8 @@
-<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> 🚀 TERMUX:X11 SETUP </h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> 🚀 TERMUX-X11 SETUP </h1>
 
 ---
 
-Termux:X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike standard VNC solutions, Termux:X11 runs via a native Android application canvas, providing massive performance increases, hardware acceleration support, and a near-native desktop experience.
+Termux-X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike standard VNC solutions, Termux:X11 runs via a native Android application canvas, providing massive performance increases, hardware acceleration support, and a near-native desktop experience.
 
 ---
 
@@ -11,7 +11,7 @@ Termux:X11 is the gold standard for accessing a Linux GUI inside PRoot. Unlike s
 Before launching your environment, you must set up the display server framework directly within the Termux host environment.
 
 1. **Install the Companion Application:**  
-   Download and install the latest **Termux:X11 APK** directly from the official [Termux:X11 GitHub Releases/Actions page](https://github.com/termux/termux-x11). 
+   Download and install the latest **Termux-X11 APK** directly from the official [Termux-X11 GitHub Releases/Actions page](https://github.com/termux/termux-x11). 
 
 2. **Install Packages on Termux Host:**  
    Open a raw Termux window (do *not* log into Uxdroid yet) and run the following commands to initialize the X11 package repositories:
@@ -31,13 +31,13 @@ You must spin up the server container inside the Android background environment 
 ```bash
    termux-x11 :1 &
    ```
-2. Open the **Termux:X11 Android Application** on your device. You will notice a blank or waiting screen—this is expected. Keep it open or split-screened.
+2. Open the **Termux-X11 Android Application** on your device. You will notice a blank or waiting screen—this is expected. Keep it open or split-screened.
 
 ---
 
 ## 🐧 Step 3: Connect and Launch inside Udroid
 
-Now, bridge your Udroid distribution environment to the active Termux:X11 canvas.
+Now, bridge your Udroid distribution environment to the active Termux-X11 canvas.
 
 1. **Log into your distribution environment:**
 ```bash
@@ -45,7 +45,7 @@ Now, bridge your Udroid distribution environment to the active Termux:X11 canvas
    ```
 
 2. **Expose the display context:**  
-   Inside your Udroid prompt, set up your display target to watch the host communication channel:
+   Inside your Uxdroid prompt, set up your display target to watch the host communication channel:
 ```bash
    export DISPLAY=:1
    ```
@@ -56,7 +56,7 @@ Now, bridge your Udroid distribution environment to the active Termux:X11 canvas
    dbus-launch --exit-with-session xfce4-session
    ```
 
-Switch over to your open Termux:X11 app window; your graphical desktop interface will render automatically with active touch tracking.
+Switch over to your open Termux-X11 app window; your graphical desktop interface will render automatically with active touch tracking.
 
 ---
 
