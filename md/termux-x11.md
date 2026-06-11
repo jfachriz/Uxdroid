@@ -75,4 +75,4 @@ Switch over to your open Termux-X11 app window; your graphical desktop interface
 ---
 
 
-<code><a href="../md/display.md">Previous Page: Display</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/audio.md">Next Page: Audio</a></code>
+<code><a href="../md/display.md">Previous Page: Display</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/audio.md">Next Page: Audio</a></code>
