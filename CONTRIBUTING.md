@@ -1,10 +1,10 @@
-<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> UXDROID CONTRIBUTION GUIDELINES </h1>
+<div <h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> UXDROID CONTRIBUTION GUIDELINES </h1>
+<p><strong>Codename:</strong> <code>uxdroid</code></p>
+/div>
 
 ---
 
 > Welcome! You have successfully reached the contribution guide. This document outlines the standards, procedures, and ecosystem structure for contributing to UXDROID and its sub-repositories.
-
-<p><strong>Codename:</strong> <code>uxdroid</code></p>
 
 ---
 
