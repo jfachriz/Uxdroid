@@ -1,5 +1,6 @@
-## Note & Disclaimer!
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ ⚠️ DISCLAIMER </h1>
 
+---
 **A note before you try**
 - As lot of it is preinstalled you can login and start right after you install.
 - Before installation, be sure that you're on stable internet and your device have 5-6gb free space for neat installation.
