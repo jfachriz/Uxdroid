@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="assets/uxdroid_logo.png" width="250" alt="UXDROID Logo">
+/div>
+
+
 # 🐧 Udroid
 
 > **Ubuntu on Android**  
