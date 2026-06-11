@@ -1,53 +1,76 @@
-# UXDROID CONTRIBUTION GUIDELINES
-> you successfully reached here 🎉
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> UXDROID CONTRIBUTION GUIDELINES </h1>
 
-The following is a set of guidelines for contributing to uxdroid and its sub-repos
+---
 
-## CODE OF CONDUCT
-this project and everyone's participation is governed by [code of conduct](https://github.com/jfachriz/uxdroid/blob/modified/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-Please report unacceptable behavior to fachrizj@gmail.com
+> Welcome! You have successfully reached the contribution guide. This document outlines the standards, procedures, and ecosystem structure for contributing to UXDROID and its sub-repositories.
 
-### For Questions & general discussion
-we have a official [Discord server](https://discord.gg/3ZTT83tH9Z) & [GitHub discussions](https://github.com/jfachriz/uxdroid/discussions). reach us out there for any query regarding uxdroid
-> to have a chit-chat with us ( join Discord )
+---
 
-## Getting started
-### uxdroid
-uxdroid repository aimed to custom ubuntu tarballs with the pre-installed applications for general usage. The idea is to provide pc like experience by keeping in mind about drawbacks of proot ( which uxdroid works on ).
-For starters, uxdroid doesn't hold the major code part of uxdroid. uxdroid has the installer, some beginner markdown guides, and preview images.
-here is the list of all repos and their description that are part of uxdroid.
-> https://github.com/jfachriz/uxdroid
+## Code of Conduct
 
-### fs-manager-uxdroid
-fs-manager-uxdroid holds scripts for managing uxdroid and some snippet codes for installing or setting up the common application.
-> https://github.com/jfachriz/fs-manager-uxdroid
+This project and all participant interactions are governed by the official [Code of Conduct](https://github.com/jfachriz/uxdroid/blob/modified/CODE_OF_CONDUCT.md). By participating, you are expected to uphold these standards.
 
-### uxdroid-wiki
-this repository contains all the documentation written by developers and contributors of uxdroid
-> https://github.com/jfachriz/uxdroid-wiki
+Please report any unacceptable behavior directly to: **fachrizj@gmail.com**
 
-### ux-cook
-ux-cook repository is the most active repo in uxdroid. It aims to make the Linux building process easier for shipping Linux tarballs to users
-> https://github.com/jfachriz/ux-cook
+### Questions and General Discussion
+For inquiries, troubleshooting, or general development conversations, please reach out via our community channels:
+*   **Discord Server:** Join the community on our [Official Discord](https://discord.gg/3ZTT83tH9Z) for real-time chat with developers.
+*   **GitHub Discussions:** Participate in community threads and text forums via [GitHub Discussions](https://github.com/jfachriz/uxdroid/discussions).
 
-## How can I contribute
-for starters, you can follow the basic GitHub guide [here](https://docs.github.com/en/get-started/quickstart/hello-world).
+---
 
-When submitting a pull request make sure to add a good title and description to it. using images is encouraged too
+## Repository Ecosystem
 
-Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
+The UXDROID project is split across several sub-repositories. Understanding where your changes belong helps streamline the review process.
+
+### 1. Main Repository (uxdroid)
+This repository serves as the entry point. It focuses on providing a desktop-like experience on Android while managing PRoot limitations. It handles custom Ubuntu tarballs with pre-installed applications, the main installer scripts, foundational markdown guides, and preview media.
+*   [UXDROID Core Repository](https://github.com/jfachriz/uxdroid)
+
+### 2. Filesystem Manager (fs-manager-uxdroid)
+Contains the core configuration scripts responsible for managing the underlying environment, along with code snippets for installing and configuring common application suites.
+*   [FS-Manager Repository](https://github.com/jfachriz/fs-manager-uxdroid)
+
+### 3. Documentation (uxdroid-wiki)
+Houses all official documentation, deployment instructions, and technical setup guides written by developers and contributors.
+*   [Wiki Repository](https://github.com/jfachriz/uxdroid-wiki)
+
+### 4. Build Tools (ux-cook)
+The most active repository in the ecosystem. Its primary goal is to simplify the Linux compilation and rootfs assembly process, making it easier to build and ship optimized Linux tarballs to end-users.
+*   [UX-Cook Repository](https://github.com/jfachriz/ux-cook)
+
+---
+
+## How to Contribute
+
+If you are new to GitHub or open-source contributions, you can review the basic GitHub [Hello World Guide](https://docs.github.com/en/get-started/quickstart/hello-world) to get started.
+
+### Submitting Pull Requests
+*   **Clear Context:** Ensure your pull request includes a descriptive title and a comprehensive summary of the changes made.
+*   **Visual Documentation:** The use of screenshots, diagrams, or layout images is highly encouraged when modifying user interfaces or visual configurations.
+
+### Commit Message Standards
+Always write clear and structured log messages for your commits. Short, single-line messages are acceptable for minor tweaks, but larger changes must follow a multi-line format:
+
+```bash
+git commit -m "A concise summary of the commit
+
+A detailed paragraph describing exactly what changed, why it was changed, and its overall impact on the environment."
 ```
-$ git commit -m "A summary of the commit
-> 
-> A paragraph describing what changed and its impact."
-```
 
-## Coding conventions
-Start reading our code and you'll get the hang of it. We optimize for readability:
-* use 4-6 spaces for intending to bash
-* follow directory rules in all cases ( images should go in directories named similar to `assets` or `img` )
-* use code beautification tools for better look and readability
-* This is open-source software. Consider the people who will read your code, and make it look nice for them. It's sort of like driving a car: Perhaps you love doing donuts when you're alone, but with passengers, the goal is to make the ride as smooth as possible.
+---
 
+## Coding Conventions
 
-###### Thanks to all users & contributors ( uxdroid contribution guidlines v0.1) 
+To keep the codebase maintainable and uniform, please follow these core development rules:
+
+*   **Indentation:** Use 4 to 6 spaces for formatting Bash and shell scripts. Do not use hard tabs.
+*   **Directory Structure:** Strictly follow established file path rules. All media assets must be placed inside designated directories named `assets` or `img`.
+*   **Code Quality:** Utilize code formatters and linting/beautification tools before committing to ensure optimal layout and scannability.
+*   **Readability Focus:** Write code with the next reviewer in mind. Treat open-source development like driving a car: when driving alone you might enjoy sharp turns, but with passengers on board, the goal is to make the ride as smooth and comfortable as possible.
+
+---
+
+<h6 align="center">Thanks to all users and contributors | UXDROID Contribution Guidelines v0.1</h6>
+
+<code><h3 align="center"><a href="../README.md">Return to Main Directory</a></h3></code>
