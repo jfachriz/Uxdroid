@@ -91,4 +91,4 @@ uxdroid remove jammy:xfce4
 uxdroid --clear-cache
 ```
 
-<code><a href="../md/disclaimer.md">Previous Page: Disclaimer</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/credits.md">Next Page: Credits</a></code>
+<code><a href="../md/disclaimer.md">Previous Page: Disclaimer</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../md/display.md">Next Page: Display</a></code>
