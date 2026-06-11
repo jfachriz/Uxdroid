@@ -75,4 +75,4 @@ Switch over to your open Termux-X11 app window; your graphical desktop interface
 ---
 
 
-<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/tips-and-tricks.md">Tips & Tricks</a></h3></code>
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/audio.md">Audio</a></h3></code>
