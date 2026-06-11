@@ -43,4 +43,6 @@ Copyright © 2026 jfachriz.
 
 ---
 
+'''bash
 ### **Next Page:** [Core Disclaimer](../md/disclaimer.md)
+'''
