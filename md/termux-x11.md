@@ -69,8 +69,9 @@ Switch over to your open Termux-X11 app window; your graphical desktop interface
 ```bash
     GALLIUM_DRIVER=virpipe mesa_glthread=true dbus-launch --exit-with-session xfce4-session
     ```
+
 *   **Resolution and Scaling Adjustments:**  
-    If your desktop font or menus look microscopic, swipe from the left edge inside the Termux:X11 app, open the **Preferences** menu, and customize the **Display Resolution** or adjust the UI display scaling factors directly.
+    If your desktop font or menus look microscopic, swipe from the left edge inside the Termux-X11 app, open the **Preferences** menu, and customize the **Display Resolution** or adjust the UI display scaling factors directly.
 
 
 
