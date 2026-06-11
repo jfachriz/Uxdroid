@@ -2,9 +2,8 @@
   <img src="../assets/uxdroid_logo.png" width="500" alt="UXDROID Logo">
 </div>
 
-
 ---
-  <h1 align="center"; style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ UXDROID ━━━━</h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ UXDROID ━━━━</h1>
 
 > **Ubuntu Environment**  
 > An automated environment to run Ubuntu distributions complete with pre-installed Desktop Environments, development tools, and software directly on top of Android—completely without root access.
@@ -13,17 +12,17 @@ By leveraging **PRoot** inside the **Termux** application, Udroid simplifies the
 
 ---
 
-  <h1 align="center"; style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ Quick Install ━━━━</h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ Quick Install ━━━━</h1>
 
 Execute the command below in your Termux terminal to automatically fetch dependencies and configure the developer-recommended distribution:
 
 ```bash
-. <(curl -Ls [https://bit.ly/udroid-installer](https://bit.ly/udroid-installer))
+. <(curl -Ls https://bit.ly/udroid-installer)
 ```
 
 ---
 
-  <h1 align="center"; style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ Supported Suites ━━━━</h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ Supported Suites ━━━━</h1>
 
 Discover the available Ubuntu distributions and supported architectures:
 * [Ubuntu 26.04 LTS](./docs/suites/ubuntu-26-04.md)
@@ -35,14 +34,13 @@ Discover the available Ubuntu distributions and supported architectures:
 
 ---
 
-
-  <h1 align="center"; style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ License ━━━━</h1>
+<h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━━ License ━━━━</h1>
 
 This project is licensed under the terms of the MIT License.  
 Copyright © 2026 jfachriz.
 
 ---
 
-'''bash
-### **Next Page:** [Core Disclaimer](../md/disclaimer.md)
-'''
+```bash
+Next Page: Core Disclaimer (../md/disclaimer.md)
+```
