@@ -16,9 +16,9 @@ Because it leverages **PRoot** and **Termux**, uxdroid runs completely entirely 
 ---
 <h1 align="center"; style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;">━━━ Installation Guide ━━━</h1>
 
-We provide two main methods for installing uxdroid. Choose the one that best fits your workflow. For more advanced configurations and command-line arguments, refer to the [Advanced Usage Documentation](https://github.com/jfachriz/fs-manager-uxdroid/blob/main/README.md).
+Provided with two main methods for installing uxdroid. For more advanced configurations and command-line arguments, refer to the [Advanced Usage Documentation](https://github.com/jfachriz/fs-manager-uxdroid/blob/main/README.md).
 ### Method 1: Automated One-Line Installer (Recommended)
-To install the stable release of the `uxdroid` filesystem quickly, use the automated script. If you have a completely fresh installation of Termux, ensure your packages are updated first.
+To install the stable release of the `uxdroid` filesystem, use the automated script. If you have a completely fresh installation of Termux, ensure your packages are updated first.
 
 
 **For a fresh Termux environment:**
@@ -38,7 +38,7 @@ apt update && apt upgrade -y
 
 
 ### Method 2: Manual Installation via Git
-If you prefer to manually install the manager tool and select your distribution parameters yourself, follow these steps:
+If you prefer to manually install the manager tool and select your distribution parameters, follow these steps:
 ```bash
 # Update packages and install git
 apt update && apt upgrade -y
@@ -54,7 +54,7 @@ bash install.sh
 # List Distro Data
 uxdroid list
 
-# Install your chosen distribution (Example: Ubuntu Jammy with XFCE4)
+# Install distribution (Example: Ubuntu Jammy with XFCE4)
 uxdroid install jammy:xfce4
 ```
 
