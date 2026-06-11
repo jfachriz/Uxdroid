@@ -1,40 +1,36 @@
 <h1 align="center" style="font-family: 'Bebas Neue', Arial, sans-serif; font-size: 4rem; letter-spacing: 2px; margin-bottom: 0;"> ⚠️ DISCLAIMER </h1>
 
 ---
-**A note before you try**
-- As lot of it is preinstalled you can login and start right after you install.
-- Before installation, be sure that you're on stable internet and your device have 5-6gb free space for neat installation.
-- As this runs on termux and on software rendering so performance clearly depends on CPU, ram and storage read-write speed!
-- Consider not to try heavy apps unless you got a good device.
-- If you have any issues or suggestions make sure i know at https://github.com/jfachriz/uxdroid/issue (create an issue)
 
-**Disclaimer**
-- I dont work with any company or organization of ubuntu or any third party sources took in making fs(for now).
-- This project works by compliying to selinux android. and all aim of the project is just run linux on android without direct root with a twist and this project improves time by time with your support and motivation.
-- the linux you trying to install from this repo is not fully functional in target space because of the selinux policies, and increasing requirement in linux requirements and also because project is set to run with `ptrace()` a low level access in android kernel
-- Graphics performence is really bad cause proot and usage on VNC, we dont support any adoptation on improving it **for now** cause insufficient data on android (ping me in discord if you have any ideas or any codes on this) 
-- **(Update)** see https://github.com/jfachriz/uxdroid/wiki/XWayland-in-proot to run smooth and fast session
-- This project comes without warranties or data protection
-- The Linux you're trying to install from this repo is not fully functional in the target space because of the SELinux policies, and increasing requirement in Linux requirements, and also because the project is set to run with ptrace() low-level access in android kernel 
-- That lead to:
-- No direct access to hardware, fluctuations in services, performance overheads, sudo issues etc.
+## 📝 Pre-Installation Notes
 
-**Display**
-- Access to display/control Desktop environment can be accomplished by various methods like
-- Termux:Wayland **Recommended**
-- xRDP
-- Vncserver ( RealVnc Viewer, Bvnc, Nethunter Vnc etc )
-- Xserver XSDL
+Before setting up your environment, please keep the following requirements and system expectations in mind:
 
-**Audio**
-- Audio works by enabling pulseserver with a tcp reciver module at `127.0.0.1` and `uxdroid` manager takes care on starting audio service ( additional setup mamy require for some apps ).
+*   **Storage & Network:** Ensure you have a **stable internet connection** and at least **5–6 GB of free internal storage** for a seamless, error-free installation.
+*   **Instant Access:** Because the environment comes heavily pre-configured, you can log in and begin working immediately after the deployment script finishes.
+*   **Performance Scaling:** This environment runs inside Termux via software rendering. Performance directly correlates to your device's **CPU, RAM, and storage read/write speeds**.
+*   **Resource Management:** Avoid running heavy or resource-intensive applications unless you are using a modern, high-end device.
+*   **Feedback & Issues:** If you encounter bugs or want to suggest features, please open an issue directly on the [UXDROID Issue Tracker](https://github.com/jfachriz/uxdroid/issues).
 
-**HID interfaces**
-- Keyboard and mouse emulation depends on apps you use to access desktop environment. Bvnc/nethunter KEX app provides better interface with hardware and mouse
+---
 
-**Graphics**
-- For this time being there is no standardized way of accessing or using device GPU at it's full potential so llvm pipes are used! (OpenGl version may depend on device OS). Most of the solutions are tricks to get more performence or vendor specific implementaions (like kernel graphics support layer/DRI ).
-- Best way to experience native linux like performence is using Termux:Wayland app which is wayland port to android
+## ⚖️ Project Disclaimers & Limitations
 
-**Others**
-- PRoot for android is still in devoloping stage and not ready for using daily life linux. all the linux codes and apps are not devoloped for PRoot. popular apps like snap flatpack which depends on Systemd (which is not possible without root and Hallium project in android) wont work. proot on android platform is devoloping mostly by the efforts of termux and many random devolopers and big part of linux/android user community. this projects is also result of so many experiments and mixture of hacks and tricks to start things in android.
+*   **Affiliation:** This project is completely independent. It is **not** affiliated with, authorized, or endorsed by Ubuntu, Canonical, or any third-party upstream organizations.
+*   **How it Works:** UXDROID operates strictly within the boundaries of Android's SELinux security framework. Its purpose is to provide a seamless, rootless Linux experience on Android using `PRoot`.
+*   **Functional Limitations:** Because the environment relies on `ptrace()` (low-level kernel access) and must respect strict Android security policies, the installed Linux system is **not fully functional** compared to native hardware. This architecture results in:
+    *   No direct access to physical hardware components.
+    *   Potential fluctuations or failures in certain background system services.
+    *   Inherent performance overhead.
+    *   Occasional environment-specific limitations with `sudo` configurations.
+*   **Graphics Performance:** Graphical rendering over standard VNC setups can experience latency due to `PRoot` translation overhead. 
+    *   💡 *Optimization:* To achieve a significantly smoother and faster desktop session, follow the official [XWayland in PRoot Guide](https://github.com/jfachriz/uxdroid/wiki/XWayland-in-proot).
+*   **No Warranty:** This project is provided "as-is", without warranties or data protection guarantees of any kind. Use it at your own discretion.
+
+---
+
+## 🖥️ Display & Access
+
+Managing and controlling your Desktop Environment can be accomplished through various display protocols (such as VNC or XWayland clients). For step-by-step instructions on configuring your graphics server, please proceed to the setup guide.
+
+<code><h3>➡️ <strong>Next Page:</strong> <a href="../md/disclaimer.md">Installation & Usage</a></h3></code>
