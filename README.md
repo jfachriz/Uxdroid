@@ -22,7 +22,8 @@ To install the stable release of the `uxdroid` filesystem, use the automated scr
 
 
 **For a fresh Termux environment:**
-1. **Terminal Emulator:** Download and install **Termux** [F-Droid](https://f-droid.org/en/packages/com.termux/). Do not use the version from the Google Play Store, as it is deprecated and no longer updated.
+1. Download and install **Termux** [F-Droid](https://f-droid.org/en/packages/com.termux/). Do not use the version from the Google Play Store, as it is deprecated and no longer updated.
+1. Download and install the latest **Termux-X11 Nightly** directly from the official [Termux-X11 GitHub](https://github.com/termux/termux-x11).
 ```bash
 # Update local repositories and upgrade existing packages
 apt update && apt upgrade -y
